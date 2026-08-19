@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GIFT | hua..</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/pages.css">
+</head>
+<body>
+
+  <header>
+    <a href="../index.html" class="logo en">hua..</a>
+    <nav class="nav-pc">
+      <a href="../about.html">ABOUT</a>
+      <a href="../gallery.html">GALLERY</a>
+      <div class="nav-dropdown">
+        <button class="nav-trigger" type="button" aria-expanded="false" aria-haspopup="true">SERVICE<span class="nav-caret">▾</span></button>
+        <div class="nav-dropdown-menu">
+          <a href="knit.html">KNIT ITEMS</a>
+          <a href="costume.html">COSTUME</a>
+          <a href="bouquet.html">GIFT</a>
+          <a href="memory.html">MEMORY</a>
+        </div>
+      </div>
+      <a href="../faq.html">FAQ</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="nav-backdrop" id="nav-backdrop"></div>
+  <nav class="nav-mobile" id="nav-mobile">
+    <button class="close-btn" id="close-btn" aria-label="閉じる">×</button>
+    <a href="../about.html">ABOUT</a>
+    <a href="../gallery.html">GALLERY</a>
+    <div class="nav-dropdown">
+      <button class="nav-trigger" type="button" aria-expanded="false" aria-haspopup="true">SERVICE<span class="nav-caret">▾</span></button>
+      <div class="nav-dropdown-menu">
+        <a href="knit.html">KNIT ITEMS</a>
+        <a href="costume.html">COSTUME</a>
+        <a href="bouquet.html">GIFT</a>
+        <a href="memory.html">MEMORY</a>
+      </div>
+    </div>
+    <a href="../faq.html">FAQ</a>
+  </nav>
+
+  <div class="page-hero container">
+    <span class="page-hero-sub en">service</span>
+    <h1 class="page-hero-title en">GIFT</h1>
+    <span class="page-hero-ja">編み花束・ギフト</span>
+  </div>
+
+  <nav class="service-quicknav container en">
+    <a href="#about">ABOUT</a>
+    <a href="#scene">SCENE</a>
+    <a href="#price">PRICE</a>
+    <a href="#flow">FLOW</a>
+    <a href="#works">WORKS</a>
+  </nav>
+
+  <section id="about">
+    <div class="container">
+      <p class="section-title en">ABOUT</p>
+      <p class="service-about">
+        枯れない、残せる。<br>
+        大切な人への贈り物に、手編みの花束はいかがですか。
+      </p>
+    </div>
+  </section>
+
+  <section id="scene">
+    <div class="container">
+      <p class="section-title en">SCENE</p>
+      <ul class="scene-list">
+        <li class="scene-tag en">BIRTHDAY</li>
+        <li class="scene-tag en">ANNIVERSARY</li>
+        <li class="scene-tag en">GRADUATION</li>
+        <li class="scene-tag en">MOTHER'S DAY</li>
+        <li class="scene-tag en">SPECIAL DAY</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="price">
+    <div class="container">
+      <p class="section-title en">PRICE</p>
+      <div class="price-table">
+        <div class="price-row">
+          <span class="price-label">料金</span>
+          <span class="price-value en">お見積もり制</span>
+        </div>
+      </div>
+      <p style="font-size:0.8rem; opacity:0.6; margin-top:1rem;">ご予算に合わせてお気軽にご相談ください。</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container section-cta">
+      <a href="../contact.html" class="btn btn-accent">相談はこちら</a>
+    </div>
+  </section>
+
+  <section id="flow">
+    <div class="container">
+      <p class="section-title en">FLOW</p>
+      <ol class="flow-list">
+        <li class="flow-item">
+          <span class="flow-num en">01</span>
+          <span class="flow-text">お問い合わせ</span>
+        </li>
+        <li class="flow-item">
+          <span class="flow-num en">02</span>
+          <span class="flow-text">打ち合わせ（インスタDM）</span>
+        </li>
+        <li class="flow-item">
+          <span class="flow-num en">03</span>
+          <span class="flow-text">お見積もり提示</span>
+        </li>
+        <li class="flow-item">
+          <span class="flow-num en">04</span>
+          <span class="flow-text">制作・発送</span>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="works">
+    <div class="container">
+      <p class="section-title en">WORKS</p>
+      <div class="service-works-grid">
+        <div class="work-thumb"><div class="img-placeholder">coming soon...</div></div>
+        <div class="work-thumb"><div class="img-placeholder">coming soon...</div></div>
+        <div class="work-thumb"><div class="img-placeholder">coming soon...</div></div>
+        <div class="work-thumb"><div class="img-placeholder">coming soon...</div></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="modal" id="works-modal">
+    <div class="modal-content">
+      <button class="modal-close" id="works-modal-close">×</button>
+      <img id="works-modal-img" src="" alt="">
+    </div>
+    <div class="modal-nav">
+      <button id="works-modal-prev">←</button>
+      <button id="works-modal-next">→</button>
+    </div>
+  </div>
+
+  <footer>
+    <span class="logo en">hua..</span>
+    <small class="en">© 2025 hua.. All rights reserved.</small>
+  </footer>
+
+  <a href="../contact.html" class="cta-fixed en">CONTACT</a>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
